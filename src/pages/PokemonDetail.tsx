@@ -2,7 +2,7 @@
 import { useQuery } from '@tanstack/react-query';
 import React, { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { fetchPokemonDetail } from '../api/pokemonDetail';
+import { fetchPokemonDetail } from '../api/pokemonDetails';
 import PokemonTypeLabel from '../components/PokemonTypeLabel';
 import { apiQueryKeys } from '../queryKeys';
 import Skeleton from 'react-loading-skeleton';
